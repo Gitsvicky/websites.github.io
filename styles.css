@@ -1,0 +1,120 @@
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+body
+{
+	background:  repeating-linear-gradient(55deg,green,black,yellow);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.head h2
+{
+	text-transform: uppercase;
+	text-align: center;
+	color:  black;
+}
+.head p
+{
+	 background-color:aqua;
+	 color : black;
+	 margin-left: 50px;
+	 margin-right: 50px;
+	 margin-top: 0px;
+	 padding : 25px;
+	 justify-content: center;
+}
+.foot 
+{
+   text-transform: uppercase;
+    position: fixed;
+   left:  0;
+	bottom : 0;
+	width : 100%;
+	background-color: black;
+	color : whitesmoke;
+    text-align: center;
+    display :inline-block;
+    padding : 9px;
+    
+}
+.navbar
+{
+	background-color: black;
+	margin-left: 3px ;
+	margin-right: 3px;
+}
+nav ul li 
+{
+	color : whitesmoke;
+	display: inline-block;
+	margin : 10px;
+	padding : 14px;
+	align-items: center;
+	 border-right :2px solid white;
+}
+a
+{
+   text-decoration: none;
+   color : white;
+   overflow: hidden;
+}
+a:hover
+{
+   color : greenyellow;
+   text-decoration: underline;
+}
+div.images
+{
+     margin: 10px;
+     width : 250px;
+	float: left;
+	border : 2px solid dimgrey;
+	opacity: 0.5;
+}
+div.images:hover
+{
+	border : 2.5px solid yellow;
+	opacity: 1;
+}
+div.images img 
+{
+	
+	width : 100%;
+	height : auto;
+}
+div.decs
+{
+   padding : 15px;
+   text-align: center;
+   text-transform: uppercase;
+}
+div.decs:hover
+{
+	color : green;
+}
+.para 
+{
+	margin : 5px;
+	padding : 5px;
+	text-align: centers;
+   float: right;
+   color : red;
+}
+button
+{
+	color : yellow;
+	background-color: grey;
+}
+input
+{
+	background-color: floralwhite;
+	border : 1.6px solid black;
+	padding :6px;
+}
+
+   
